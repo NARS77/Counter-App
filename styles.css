@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #e2dcdc;
+    background-color: #f0f0f0;
   }
   
   .container {
@@ -10,7 +10,7 @@ body {
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(42, 7, 7, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
   .counter {
@@ -34,17 +34,17 @@ body {
   button {
     width: 40px;
     height: 40px;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: bold;
     border: none;
     border-radius: 50%;
-    background-color: #fa1e4e ;
+    background-color: #fa1e4e;
     color: #fff;
     cursor: pointer;
   }
   
   button:hover {
-    background-color: #fa1e4e ;
+    background-color: #fa1e4e;
   }
   
   .progress-bar {
@@ -60,7 +60,7 @@ body {
   .progress-bar-fill {
     width: 0%;
     height: 100%;
-    background-color: #fa1e4e ;
+    background-color: #fa1e4e;
     border-radius: 10px;
     transition: width 0.5s ease-in-out;
   }
