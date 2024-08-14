@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e2dcdc;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(42, 7, 7, 0.1);
+  }
+  
+  .counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  #count-input {
+    width: 60px;
+    height: 40px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    margin: 0 10px;
+  }
+  
+  button {
+    width: 40px;
+    height: 40px;
+    font-size: 10px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50%;
+    background-color: #fa1e4e ;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #fa1e4e ;
+  }
+  
+  .progress-bar {
+    width: 100%;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 10px;
+    margin-top: 20px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .progress-bar-fill {
+    width: 0%;
+    height: 100%;
+    background-color: #fa1e4e ;
+    border-radius: 10px;
+    transition: width 0.5s ease-in-out;
+  }
+  
